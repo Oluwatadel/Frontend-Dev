@@ -33,13 +33,14 @@ header ul {
   display: flex;
 }
 
-header ul li {
+nav ul li {
   list-style-type: none;
   margin: 2rem;
 }
 
 .logo {
   width: 7rem;
+  margin-left: 2rem;
 }
 
 a {
@@ -118,10 +119,10 @@ button {
   padding-bottom: 10px;
 }
 
-a {
+/* a {
   color: skyblue;
   border-bottom: 2px solid skyblue;
-}
+} */
 .stay-product {
   display: flex;
   width: 80rem;
@@ -162,7 +163,7 @@ a {
 }
 
 .firsta {
-  width: 450px;
+  width: 400px;
   background-color: hsl(219, 30%, 18%);
 }
 
@@ -227,7 +228,8 @@ a {
 }
 
 .intbut {
-  margin-bottom: 2rem;
+  padding-bottom: 30px;
+  display: flex;
 }
 
 footer {
@@ -242,12 +244,15 @@ footer ul {
 .fcontainer {
   display: flex;
   justify-content: space-between;
-  max-width: 1539px;
-  margin: auto;
+  max-width: 1451px;
+  margin-left: 8rem;
+  margin-right: 8rem;
   margin-top: 2rem;
+  padding-bottom: 7rem;
 }
 
-.base {
+
+.base img{
   padding-top: 10rem;
   padding-left: 8rem;
 }
@@ -268,33 +273,182 @@ ul li,
 .phone {
   padding-bottom: 30px;
 }
+
+ul li {
+  list-style: none;
+}
+
+.socials {
+  display: flex;
+}
+
+.fb img,
+.twitter img,
+.instagram img {
+  width: 13px;
+}
+
+.fb,
+.twitter,
+.instagram {
+  width: 30px;
+  height: 30px;
+  border: 2px solid;
+  border-radius: 50px;
+  border-color: white;
+  display: flex;
+  justify-content: center;
+  margin-right: 10px;
+}
+
 @media only screen and (max-width: 767px) {
   .illustration img {
-    width: 18rem;
-  }
-
-  .logo {
-    width: 5rem;
-  }
-
-  header ul li {
-    margin: 0.7rem;
-  }
-
-  nav a {
-    font-size: 0.5rem;
-  }
-
-  header,
-  .about,
-  .fact {
-    padding: 0 1.5rem;
-  }
-
-  .row div {
-    text-align: center;
-  }
+    width: 32rem;
 }
+
+.row {
+  /* display: flex; */
+  width: 30rem;
+  margin: 0 auto;
+  text-align: center;
+  padding-right: 20px;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+  
+  .stay-product {
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: space-between;
+    margin-top: 4rem;
+  }
+
+
+.stay-p {
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: space-between;
+  margin-top: 4rem;
+}
+.stay-product img {
+  width: 23rem;
+  }
+
+.stay {
+  display:flex;
+  justify-content: center;
+}
+
+#access {
+  margin-bottom: 3rem;
+}
+
+.store {
+  padding-top: 3rem;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* max-width: 1450px; */
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  margin-top: 7rem;
+  margin-bottom: 2rem;
+}
+
+.firsta {
+  width: 453px;
+  background-color: hsl(219, 30%, 18%);
+  margin-top: 41px;
+  border-radius: 10px;
+}
+
+.get-access {
+  width: 35rem;
+  background-color: hsl(219, 30%, 18%);
+  /* border: 2px solid; */
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 9rem;
+  margin-bottom: -10rem;
+}
+
+.get-access input {
+  width: 21rem;
+    height: 3.5rem;
+    border-radius: 50px;
+    margin-right: -19px;
+    margin-bottom: 2rem;
+}
+
+.get-access button {
+  width: 21rem;
+  height: 3.5rem;
+}
+
+.intbut {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.base {
+  padding-top: 9rem;
+  /* padding-left: 8rem; */
+}
+    
+.base img{
+  padding-top: 10rem;
+    padding-left: 4rem;
+}
+
+.fcontainer {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  /* max-width: 1451px; */
+  margin-left: 4rem;
+  /* margin-right: 8rem; */
+  margin-top: 2rem;
+  padding-bottom: 7rem;
+}
+
+.phone {
+  padding-top: 1rem;
+}
+
+.mail {
+  padding-bottom: 4rem;
+}
+
+a {
+  font-size: 1.2rem;
+  /* padding-top: 4rem; */
+}
+
+.right-middle {
+  padding-top: 3rem;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+}
+
+}
+
+
 
 @media only screen and (min-width: 1023px) {
   .row {
@@ -304,6 +458,7 @@ ul li,
     text-align: center;
     padding-right: 20px;
     justify-content: space-between;
+    padding: 5rem 0;
   }
 
   .row div {
