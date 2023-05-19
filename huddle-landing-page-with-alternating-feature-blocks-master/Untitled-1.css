@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-image: url("images/bg-hero-desktop.svg");
+  height: 100vh;
+  background-size: cover;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+  align-items: center;
+}
+
+nav img {
+  width: 120px;
+}
+
+nav button {
+  background-color: white;
+  border: 0;
+  box-shadow: 11px 6px 47px 0px rgba(0, 0, 0, 0.23);
+  -webkit-box-shadow: 11px 6px 47px 0px rgba(0, 0, 0, 0.23);
+  -moz-box-shadow: 11px 6px 47px 0px rgba(0, 0, 0, 0.23);
+  width: 10rem;
+  padding: 1rem;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+}
+
