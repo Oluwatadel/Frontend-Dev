@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    border-bottom: solid 4px rgb(6, 206, 6);;
+}
+
+
+span {
+    font-size: 1.5rem;
+    color:rgb(117, 5, 5)
+}
+
+.logo {
+    width: 40px;
+}
+
+.nav-ul a {
+    text-decoration: none;
+    color: rgb(117, 5, 5);
+    transition: all 3ms;
+}
+
+.nav-ul a:hover {
+    border-bottom: solid 4px rgb(6, 206, 6);
+}
+
+nav ul li{    
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.8rem;
+    padding-top: 2rem;
+}
+
+.nav-ul {
+    width:70%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-ul ul {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 93%;
+    margin: 2rem auto;
+}
+
+.right-c {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+}
+
+.right-c h1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-left: 5rem;
+    padding-bottom: 4rem;
+}
+
+.right-c input, .relog input{
+    /* display: flex;
+    justify-content: center; */
+    width: 9rem;
+    height: 3rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    background-color: rgb(117, 5, 5);
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.right-c input:hover, .relog input:hover {
+    transition: all 3ms;
+    border-radius: 5px;
+    background-color: rgb(6, 206, 6);
+}
+
+.relog {
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+}
+
+.relog input{
+    width: 5rem;
+}
