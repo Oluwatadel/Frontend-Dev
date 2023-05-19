@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Budget App</h2>
+        <div>
+            <input type="text" id="description" placeholder="description">
+            <input type="number" id="value" placeholder="value">
+            <select id="type">
+                <option value="income">+</option>
+                <option value="Expense">-</option>
+            </select>
+            <input type="button" value="add" onclick="additem()">
+        </div>
+        <div id="income_List">
+            <h3>Income</h3>
+        </div>
+        <div id="expense_list">
+            <h3>Expense List</h3>
+        </div>
+        <div>
+            <h3>Total Budget</h3>
+            <p id="budget">0</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
